@@ -10,12 +10,20 @@
         "dest": "/api/index.php"
       },
       {
-        "src": "/style.css",
-        "dest": "/public/style.css"
+        "src": "/ajax/libs/animate.css/4.1.1/animate.min.css",
+        "dest": "/public/ajax/libs/animate.css/4.1.1/animate.min.css"
+      },
+      {
+        "src": "/css/bootstrap/css/bootstrap.min.css",
+        "dest": "/public/css/bootstrap/css/bootstrap.min.css"
       },
       {
         "src": "/assets/img/(.*).png",
         "dest": "/public/assets/img/$1"
+      },
+      {
+        "src": "/assets/datas/data.json",
+        "dest": "/public/assets/datas/data.json"
       },
       {
         "src": "/assets/datas/data.json",
