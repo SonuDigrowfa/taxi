@@ -18,8 +18,8 @@
         "dest": "/public/css/bootstrap/css/bootstrap.min.css"
       },
       {
-        "src": "/assets/img/(.*).png",
-        "dest": "/public/assets/img/$1"
+        "src": "/images/banner/mainbg.jpg",
+        "dest": "/public/images/banner/mainbg.jpg"
       },
       {
         "src": "/assets/datas/data.json",
